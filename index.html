@@ -7,30 +7,30 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <section>
-        <nav>
-            
-            <a href="#about">About Me</a>
+    <nav>
+        <div class="nav_div">
+            <a href="#about" class="navbutton">About Me</a>
             <a href="test.html" class="navbutton">My Pictures</a>
-            <a href="#home"><img src="images/Goodlogo.webp" alt="" class="logo"></a>
-            <a href="">?????</a>
-            <a href="#contact">Contact</a>
-
-        </nav>
-        <!-- <div id="navbar">
-            <a href="">test</a>
-            <button>ok</button>
-            <button class="navbutton">about Me</button>
-            <button class="navbutton">My Albums</button>
-            
-            <button class="navbutton">?????</button>
-            <button class="navbutton">Contact</button>
-            <a href=""></a>
-            <a href="#about"><img src="images/Goodlogo.webp" alt="" class="logo"></a>
-            
-        </div> -->
+            <a href="#home" class="navbutton"><img src="images/Goodlogo.webp" alt="" class="logo"></a>
+            <a href="" class="navbutton">?????</a>
+            <a href="#contact" class="navbutton">Contact</a>
+        </div>
         <div id="navline"></div>
-    </section>
+        
+    </nav>
+    <!-- <div id="navbar">
+        <a href="">test</a>
+        <button>ok</button>
+        <button class="navbutton">about Me</button>
+        <button class="navbutton">My Albums</button>
+        
+        <button class="navbutton">?????</button>
+        <button class="navbutton">Contact</button>
+        <a href=""></a>
+        <a href="#about"><img src="images/Goodlogo.webp" alt="" class="logo"></a>
+        
+    </div> -->
+    
     <section id="home">
         <div class="global_section_flex_container">
             <div id="flex_item_header1">
@@ -52,27 +52,29 @@
     </section>
     <section id="about">
         <div class="global_section_flex_container">
-            <div class="image_div">
-                <img src="images/aboutme.png" alt="">
-            </div>
+            
             <div class="flex_item">
                 <h1 class="header2">About <span class="blue_text_color">ME</span></h1>
                 <p id="short_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.... <span class="blue_text_color">Read more</span></p>
             </div>
-
+            <div class="image_div">
+                <img src="images/aboutme.png" alt="">
+            </div>
             
         </div>
         
     </section> 
     <section>
-        <div>
-            <H2>My recent Works</H2>
+        <div class="recent_work_flex_container">
+            
+            <h1 class="header3">My recent <span class="blue_text_color">Works</span></h1>
             <div>
                 <button>All</button>
                 <button>place1</button>
                 <button>place2</button>
             </div> 
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.... Read more</p>
+            <!-- <img  src="images/background.png" alt=""> -->
         </div>
         
     </section>
