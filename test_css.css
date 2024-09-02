@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 547px;
+}
+
+div {
+    border: 2px solid red;
+}
+
+body {
+    background-color: #1f232e;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 50px;
+}
+
+.content h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+}
+
+.highlight {
+    display: inline-block;
+    color: #66bfbf;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.highlight::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: #66bfbf;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-right: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hire-me {
+    background-color: #66bfbf;
+    color: #fff;
+}
+
+.download-cv {
+    background-color: #3a3f4b;
+    color: #fff;
+}
+
+.download-icon {
+    margin-left: 8px;
+}
+
+.illustration {
+    position: relative;
+}
+
+.person {
+    width: 400px;
+    height: auto;
+}
+
+/* Additional styles for arrow and other elements */

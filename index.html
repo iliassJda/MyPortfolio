@@ -2,102 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
-        <div class="nav_div">
-            <a href="#about" class="navbutton">About Me</a>
-            <a href="test.html" class="navbutton">My Pictures</a>
-            <a href="#home" id="navlogo"><img src="images/Goodlogo.webp" alt="" class="logo"></a>
-            <a href="" class="navbutton">?????</a>
-            <a href="#contact" class="navbutton">Contact</a>
+        <div id="nav_div">
+            <a href="" class="nav_button">My Work</a>
+            <a href=""><img src="images/Goodlogo_sized.png" alt=""></a>
+            <a href="" class="nav_button">Contact Me</a>
         </div>
-        <div id="navline"></div>
-        
+        <div id="divline"></div>
     </nav>
-    <!-- <div id="navbar">
-        <a href="">test</a>
-        <button>ok</button>
-        <button class="navbutton">about Me</button>
-        <button class="navbutton">My Albums</button>
-        
-        <button class="navbutton">?????</button>
-        <button class="navbutton">Contact</button>
-        <a href=""></a>
-        <a href="#about"><img src="images/Goodlogo.webp" alt="" class="logo"></a>
-        
-    </div> -->
     
-    <section id="home">
-        <div class="global_section_flex_container">
-            <div id="flex_item_header1">
-                <h1 class="header1">
-                    Iliass' <span class="blue_text_color">Portfolio</span>
-                </h1>
+    <section>
+        <div class="container">
+            <div id="home_div">
+                <svg id="home_arrow" width="79" height="235" viewBox="0 0 79 235" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M75.7998 3.19806C50.1843 3.91647 54.9044 2.94458 34.1801 22.898C29.4468 27.4551 22.2901 32.9978 20.6682 41.0942C18.2748 53.042 32.9256 89.1888 42.5174 75.8854C48.7163 67.2878 47.5223 52.5204 38.0924 48.6148C22.6279 42.2098 10.1944 61.1468 5.38686 77.5103C0.0940138 95.5256 4.53909 115.234 17.0132 127.263C22.7118 132.758 31.9039 130.27 26.8618 118.599C16.4911 94.596 4.49663 123.714 6.12058 139.661C9.04561 168.385 33.7168 206.119 56.799 200.135C64.0159 198.264 61.657 194.09 58.6284 191.002C55.5553 187.869 47.8279 176.427 49.9025 180.772C53.5294 188.367 58.1307 191.423 63.2708 195.883C69.9006 201.635 55.68 214.205 51.5604 218.692C49.3978 221.047 46.2555 226.322 45.6706 230.164C44.5155 237.748 52.8538 217.931 54.346 210.482" stroke="#00ADB5" stroke-opacity="0.2" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    
+                <h1 id="homeheader">Iliass'<br> <span class="blue_text_color">Portfolio</span></h1>
                 <div class="button_div">
-                    <button class="button blue_button">My Pictures</button>
-                    <button class="button">Download CV</button>
+                    <button class="btn blue_button">My Work</button>
+                    <button class="btn grey_button">Download CV</button>
                 </div>
-                
             </div>
-            
-            <div class="image_div">
+            <div id="home_image_div">
                 <img src="images/home.png" alt="">
             </div>
+            
         </div>
-        
     </section>
-    <section id="about">
-        <div class="global_section_flex_container">
-            
-            <div class="flex_item">
-                <h1 class="header2">About <span class="blue_text_color">ME</span></h1>
-                <p id="short_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.... <span class="blue_text_color">Read more</span></p>
-            </div>
-            <div class="image_div">
-                <img src="images/aboutme.png" alt="">
-            </div>
-            
-        </div>
-        
-    </section> 
+    
     <section>
-        <div class="recent_work_flex_container">
-            
-            <h1 class="header3">My recent <span class="blue_text_color">Works</span></h1>
-            <div>
-                <button>All</button>
-                <button>place1</button>
-                <button>place2</button>
-            </div> 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.... Read more</p>
-            <!-- <img  src="images/background.png" alt=""> -->
-        </div>
         
     </section>
-    <section id="contact">
-        <div>
-            <div>
-                <h2>Got a project in mind?</h2>
-                <img src="images/contact.png" alt="">
-            </div>
-            <div>
-                <div>
-                    <label for="nameField">Your name</label>
-                    <input type="text" id="nameField">
-                    <label for="emailField">Your email</label>
-                    <input type="text" id="emailField">
-                </div>
-                <div>
-                    <label for="messageField">Your Message</label>
-                    <input type="text" id="messageField">
-                </div>
-                <button>Send Message</button>
-            </div> 
-        </div>
-    </section>
+
 </body>
 </html>
